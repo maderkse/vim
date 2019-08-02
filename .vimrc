@@ -41,6 +41,9 @@
    " see :h vundle for more details or wiki for FAQ
    " Put your non-Plugin stuff after this line
 source /usr/share/vim/vim81/defaults.vim
+set path=$PWD/**
+set wildmenu 
+set wildmode=list:longest,full
 set tabstop=3
 set shiftwidth=3
 set expandtab
